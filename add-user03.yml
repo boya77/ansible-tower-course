@@ -1,0 +1,8 @@
+---
+  - name:  creating users
+    hosts: all
+    tasks:
+      - name: adding user0+1 user
+        user:
+          name: user03
+          state: present
